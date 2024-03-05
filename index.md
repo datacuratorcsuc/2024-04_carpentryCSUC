@@ -161,13 +161,12 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Les persones participants han de portar un portàtil amb Mac, Linux o Windows (no una tauleta, Chromebook, etc.) sobre el qual tenen privilegis administratius. 
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  El portàtil ha de tenir instal·lat el software que farem servir durant el curs (llistat <a href="#setup">a sota</a>).
 </p>
 
 {% comment %}
@@ -177,22 +176,16 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
+  <strong>Accessibilitat:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  Ens comprometem a fer que aquest taller sigui accessible a tothom. Els organitzadors hem comprovat que:
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>Es pot accedir a la sala amb cadira de rodes / scooter.</li>
+  <li>Els labavos són accessibles.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+Tots els materials es distribuiran als participants uns dies abans de l'inici del taller.  Si necessiteu materials impresos amb fonts grans notifiqueu els organitzadors uns dies abans de l'inici del taller. Si podem facilitar el vostre aprenentatge durant el taller (per exemple, amb intèrprets de llengua de signes, habitacions per alletar, etc) si us plau contacteu-nos (fent servir la informació de contacte més a baix) i intentarem obtenir els recursos adients.
 </p>
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. 
@@ -211,7 +204,7 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
+  <strong>Contacte:</strong>
   Please email
   {% if page.email %}
   {% for email in page.email %}
@@ -262,10 +255,10 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">Codi de Conducta</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Tots els participants en activitats de Carpentries han de respectar el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Codi de Conducta</a>. El document també resumeix com comunicar incidències quan sigui necessari.
 </p>
 
 <p class="text-center">
