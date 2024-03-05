@@ -119,7 +119,7 @@ address.
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
-  <strong>Where:</strong>
+  <strong>On:</strong>
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
@@ -147,7 +147,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>Quan:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
@@ -159,7 +159,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong>
+  <strong>Requeriments:</strong>
   {% if online == "false" %}
     Les persones participants han de portar un portàtil amb Mac, Linux o Windows (no una tauleta, Chromebook, etc.) sobre el qual tenen privilegis administratius. 
   {% else %}
@@ -205,7 +205,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contacte:</strong>
-  Please email
+  Si us plau envieu un correu electrònic a 
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -220,13 +220,13 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  per més informació.
 </p>
 
 <p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  <strong>Rols:</strong>
+  Per més informació sobre els rols durant el taller (qui farà què),
+  referiu-vos a <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop"> les FAQ sobre tallers Carpentries (en anglès)</a>.
 </p>
 
 {% comment %}
@@ -258,7 +258,7 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Codi de Conducta</h2>
 
 <p>
-Tots els participants en activitats de Carpentries han de respectar el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Codi de Conducta</a>. El document també resumeix com comunicar incidències quan sigui necessari.
+Tots els participants en activitats de Carpentries han de respectar el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Codi de Conducta (en anglès)</a>. El document també resumeix com comunicar incidències quan sigui necessari.
 </p>
 
 <p class="text-center">
@@ -294,7 +294,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
+
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
@@ -313,6 +313,7 @@ change the value of `carpentry` to `incubator`.
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
+{% endcomment %}
 
 <hr/>
 
@@ -339,7 +340,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Horari</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -377,10 +378,10 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Preparació</h2>
 
 <p>
-  To participate in a
+  Per participar en aquest taller de 
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -388,14 +389,13 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  ,
+  necessitareu accés al programari descrit a sota.
+  També necessitareu un navegador web actualitzat.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Mantenim una llista de problemes amb què us podeu trobar durant la instal·lació, que us poden ser d'ajuda a la 
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">pàgina wiki de Problemes i Solucions (en anglès)</a>.
 </p>
 
 {% comment %}
