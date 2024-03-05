@@ -73,7 +73,7 @@ the pitch.
 <p>
 El projecte <strong><a href="https://carpentries.org">The Carpentries</a></strong> inclou <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, i
-<a href="{{site.lc_site}}">Library Carpentry</a> ccomunitats de Instructors, Trainers, Maintainers,
+<a href="{{site.lc_site}}">Library Carpentry</a>, així com una comunitat d'Instructors, Trainers, Maintainers, i
 helpers, que comparteixen la missió d'ensenyar abilitats de ciències computacionals i data science a persones investigadores i professionals de la informació.
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
