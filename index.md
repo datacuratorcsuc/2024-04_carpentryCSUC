@@ -121,9 +121,9 @@ address.
 <p id="where">
   <strong>On:</strong>
   {{page.address}}.
-  Get directions with
+  Visualitza en un mapa amb
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
+  o
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
 {% elsif online == "true_public" %}
@@ -161,7 +161,7 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requeriments:</strong>
   {% if online == "false" %}
-    Les persones participants han de portar un portàtil amb Mac, Linux o Windows (no una tauleta, Chromebook, etc.) sobre el qual tenen privilegis administratius. 
+    Les persones participants han de portar un portàtil amb Mac, Linux o Windows (no una tauleta, Chromebook, etc.) sobre el qual tinguin privilegis administratius. 
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
@@ -263,7 +263,7 @@ Tots els participants en activitats de Carpentries han de respectar el <a href="
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Comunica una Incidència de Codi de Conducta</button>
   </a>
 </p>
 <hr/>
