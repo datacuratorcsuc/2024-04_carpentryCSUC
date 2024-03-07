@@ -178,12 +178,8 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibilitat:</strong>
 {% if online == "false" %}
-  Ens comprometem a fer que aquest taller sigui accessible a tothom. Els organitzadors hem comprovat que:
+  La sala no és accessible amb cadira de rodes o scooter, hi ha tres escales. Si és un obstacle per vosaltres si us plau contacteu-nos.
 </p>
-<ul>
-  <li>Es pot accedir a la sala amb cadira de rodes / scooter.</li>
-  <li>Els labavos són accessibles.</li>
-</ul>
 <p>
 Tots els materials es distribuiran als participants uns dies abans de l'inici del taller.  Si necessiteu materials impresos amb fonts grans notifiqueu els organitzadors uns dies abans de l'inici del taller. Si podem facilitar el vostre aprenentatge durant el taller (per exemple, amb intèrprets de llengua de signes, habitacions per alletar, etc) si us plau contacteu-nos (fent servir la informació de contacte més a baix) i intentarem obtenir els recursos adients.
 </p>
